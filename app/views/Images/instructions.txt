@@ -1,0 +1,13 @@
+node npm
+git
+
+npm uninstall -g grunt-cli yo bower generator-karma generator-angular
+
+
+git init
+npm i -g grunt-cli yo bower generator-karma generator-angular
+grunt server
+
+mkdir
+cd
+yo angular 

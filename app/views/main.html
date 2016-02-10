@@ -1,0 +1,27 @@
+<h1>Recommended Angular Tutorials</h1>
+
+<table class="table table-bordered">
+  <tr>
+    <th>
+      Title
+    </th>
+    <th>
+      Author
+    </th>
+    <th>
+      <!-- Images -->
+    </th>
+  </tr>
+
+  <tr ng-repeat=" tutorial in tutorials">
+    <td>
+      <a href="{{tutorial.url}}" target="_blank">{{tutorial.title}}</a>
+    </td>
+    <td>
+      {{tutorial.author}}
+    </td>
+    <td class="img-align">
+      <img src="{{tutorial.image}}" class="img-size"></img>
+    </td>
+  </tr>
+</table>
